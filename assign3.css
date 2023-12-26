@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: cadetblue;
+    width: 15%;
+    height: 100vh;
+}
+#cont{
+    list-style-type: none;
+    background-color: brown;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    color: black;
+    background-color: burlywood;
+}
+#menu1,#menu2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop1,#drop2{
+    position: relative;
+}
+#drop1:hover #menu1{
+    display: block;
+}
+#drop2:hover #menu2{
+    display: block;
+}
+#breakfast-drop,#lunch-drop,#dinner-drop{
+    position: relative;;
+}
+#breakfast-drop2,#lunch-drop2,#dinner-drop2{
+    position: relative;;
+}
+#breakfast-menu,#lunch-menu,#dinner-menu{
+    background-color: palevioletred;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none; 
+
+}
+#breakfast-menu2,#lunch-menu2,#dinner-menu2{
+    background-color: palevioletred;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none; 
+
+}
+#breakfast-drop:hover #breakfast-menu{
+    display: block;
+}
+#lunch-drop:hover #lunch-menu{
+    display: block;
+}
+#dinner-drop:hover #dinner-menu{
+    display: block;
+}
+#breakfast-drop2:hover #breakfast-menu2{
+    display: block;
+}
+#lunch-drop2:hover #lunch-menu2{
+    display: block;
+}
+#dinner-drop2:hover #dinner-menu2{
+    display: block;
+}
+
